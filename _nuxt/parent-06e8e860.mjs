@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as t,c as n,a as r,F as c,b as s}from"./entry-699768c5.mjs";const _={},l=s("h2",null,"\u7236\u6BCD\u9875\u9762",-1);function f(m,p){const e=o("NuxtPage");return t(),n(c,null,[l,r(e,{foobar:"123"})],64)}var d=a(_,[["render",f]]);export{d as default};

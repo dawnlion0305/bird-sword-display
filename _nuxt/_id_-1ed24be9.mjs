@@ -1,0 +1,1 @@
+import{_ as r,o as a,c as t,t as o}from"./entry-699768c5.mjs";const c={};function n(e,s){return a(),t("h2",null,"\u6587\u7AE0\u6807\u9898-"+o(e.$route.params.id),1)}var i=r(c,[["render",n]]);export{i as default};
