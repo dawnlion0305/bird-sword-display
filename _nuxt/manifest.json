@@ -1,0 +1,84 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-99b94e17.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/article/[id].vue",
+      "pages/detail.vue",
+      "pages/helloworld.vue",
+      "pages/index.vue",
+      "pages/parent/child.vue",
+      "pages/parent.vue",
+      "layouts/custom.vue",
+      "layouts/default.vue"
+    ],
+    "css": [
+      "entry.058ab5ee.css"
+    ]
+  },
+  "pages/article/[id].vue": {
+    "file": "_id_-e8258a68.mjs",
+    "src": "pages/article/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/detail.vue": {
+    "file": "detail-a0cb2891.mjs",
+    "src": "pages/detail.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/helloworld.vue": {
+    "file": "helloworld-9ff1fa06.mjs",
+    "src": "pages/helloworld.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-96d5a0bc.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/parent/child.vue": {
+    "file": "child-9911a21e.mjs",
+    "src": "pages/parent/child.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/parent.vue": {
+    "file": "parent-2fa20fa8.mjs",
+    "src": "pages/parent.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/custom.vue": {
+    "file": "custom-ea1ba4f5.mjs",
+    "src": "layouts/custom.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/default.vue": {
+    "file": "default-56b2d3e2.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  }
+}
