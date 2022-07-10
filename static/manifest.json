@@ -1,84 +1,122 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-99b94e17.mjs",
+    "file": "entry-9fe83dc6.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
-      "pages/article/[id].vue",
-      "pages/detail.vue",
-      "pages/helloworld.vue",
+      "pages/company/index.vue",
       "pages/index.vue",
-      "pages/parent/child.vue",
-      "pages/parent.vue",
-      "layouts/custom.vue",
+      "pages/menus/index.vue",
+      "pages/news/[id].vue",
+      "pages/news/index.vue",
+      "pages/recruitment/index.vue",
+      "pages/stores/[id].vue",
+      "pages/stores/index.vue",
       "layouts/default.vue"
     ],
     "css": [
-      "entry.058ab5ee.css"
+      "entry.a8fd0631.css"
+    ],
+    "assets": [
+      "menu-1.59888397.jpg",
+      "menu-2.c4a7f953.jpg",
+      "menu-3.18b74b7f.jpg",
+      "menu-4.a85a84b0.jpg"
     ]
   },
-  "pages/article/[id].vue": {
-    "file": "_id_-e8258a68.mjs",
-    "src": "pages/article/[id].vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs"
-    ]
-  },
-  "pages/detail.vue": {
-    "file": "detail-a0cb2891.mjs",
-    "src": "pages/detail.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs"
-    ]
-  },
-  "pages/helloworld.vue": {
-    "file": "helloworld-9ff1fa06.mjs",
-    "src": "pages/helloworld.vue",
+  "pages/company/index.vue": {
+    "file": "index-4c019b20.mjs",
+    "src": "pages/company/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "pages/index.vue": {
-    "file": "index-96d5a0bc.mjs",
+    "file": "index-8ee4d531.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
+      "_Carousel-b0868024.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "pages/parent/child.vue": {
-    "file": "child-9911a21e.mjs",
-    "src": "pages/parent/child.vue",
+  "_Carousel-b0868024.mjs": {
+    "file": "Carousel-b0868024.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/menus/index.vue": {
+    "file": "index-447e6764.mjs",
+    "src": "pages/menus/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "pages/parent.vue": {
-    "file": "parent-2fa20fa8.mjs",
-    "src": "pages/parent.vue",
+  "pages/news/[id].vue": {
+    "file": "_id_-f53eea92.mjs",
+    "src": "pages/news/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ImageBox-99158a95.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_ImageBox-99158a95.mjs": {
+    "file": "ImageBox-99158a95.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/news/index.vue": {
+    "file": "index-565196ea.mjs",
+    "src": "pages/news/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "layouts/custom.vue": {
-    "file": "custom-ea1ba4f5.mjs",
-    "src": "layouts/custom.vue",
+  "pages/recruitment/index.vue": {
+    "file": "index-b1606204.mjs",
+    "src": "pages/recruitment/index.vue",
     "isDynamicEntry": true,
     "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/stores/[id].vue": {
+    "file": "_id_-400c2b7c.mjs",
+    "src": "pages/stores/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Carousel-b0868024.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/stores/index.vue": {
+    "file": "index-ffadc529.mjs",
+    "src": "pages/stores/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ImageBox-99158a95.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "layouts/default.vue": {
-    "file": "default-56b2d3e2.mjs",
+    "file": "default-b1483f9f.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "default.34264f41.css"
+    ],
+    "assets": [
+      "logo-120x120.ce1638a5.png",
+      "logo-pure120-120.1f82c631.png"
     ]
   }
 }
